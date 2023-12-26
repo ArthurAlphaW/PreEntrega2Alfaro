@@ -87,10 +87,19 @@
   display: flex;
   padding: 2.5rem;
   box-sizing: border-box;
+  position: relative;
+}
+.hero-section .hero-image-wrapper::before {
+  content: "";
+  position: absolute;
+  bottom: 40px;
+  left: 6px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(transparent 57%, white 64%);
 }
 .hero-section .hero-image {
-  border-radius: 50%;
-  aspect-ratio: 1/1;
   object-fit: cover;
   width: 100%;
 }
@@ -98,14 +107,16 @@
   color: var(--color-3);
 }
 
-#exp_section_homepage {
-  gap: 1.25rem 1.875rem;
+#exp_section_homepage .section-subtitle {
+  color: var(--color-3);
 }
-#exp_section_homepage .section-title {
-  flex: 1 1 100%;
-}
-#exp_section_homepage .column {
-  flex: 1;
+#exp_section_homepage h4 {
+  background-color: var(--color-4);
+  color: black;
+  padding: 10px;
+  box-sizing: border-box;
+  width: fit-content;
+  font-size: 16px;
 }
 
 #skills_section_homepage {
