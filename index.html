@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arturo Alfaro</title>
+
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous">
+    </script>
+
+    <script> 
+        $(function(){
+            $("#header").load("header.html"); 
+            $("#footer").load("footer.html"); 
+        });
+    </script>
+</head>
+<body>
+    <div id="header"></div>
+
+   <div class="hero-section padded-row page-row">
+    <div>
+        <h2 class="section-title">Let's do something <span class="focus">incredible</span></h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores ad architecto aliquam porro nulla non, temporibus et quis sapiente optio impedit accusamus enim aspernatur quas cupiditate exercitationem eius explicabo totam placeat amet debitis voluptatibus veniam. Aut, saepe rem ullam fugiat, corrupti maxime similique velit deserunt architecto distinctio quisquam a reprehenderit?</p>
+    </div>
+    <div class="hero-image-wrapper">
+        <img class="hero-image" alt="myself" src="pics/thumbup.gif">
+    </div>
+   </div>
+   <div id="exp_section_homepage" class="page-row">
+    <h2 class="section-title">My experience</h2>
+    <div class="column">
+        <h3 class="section-subtitle">
+            Lorem ipsum.
+        </h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat culpa quibusdam pariatur nihil sapiente, possimus dolores laudantium ut nostrum dolore corrupti commodi perferendis expedita dolorem suscipit reprehenderit eos veritatis nisi iusto perspiciatis odit quas tenetur similique? Voluptas libero voluptate magnam, sequi reprehenderit fugiat laboriosam esse assumenda suscipit rem illum asperiores!
+        </p>
+    </div>
+    <div class="column">
+        <h3 class="section-subtitle">
+            Lorem ipsum.
+        </h3>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates fugiat sapiente veniam! Maxime iure culpa sequi vitae nesciunt ducimus labore?
+        </p>
+    </div>
+    <div class="column">
+        <h3 class="section-subtitle">
+            Lorem ipsum.
+        </h3>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque distinctio molestias maxime laudantium dicta, ducimus nihil modi vitae ut vel dolorum, cum sequi sint? Ea dolor consequatur cupiditate et earum odio beatae mollitia laudantium? Error earum enim at excepturi ullam!
+        </p>
+    </div>
+   </div>
+
+   <div id="skills_section_homepage" class="page-row padded-row">
+        <div class="column">
+            <img id="homepage_illustration" alt="webdev illustration" src="pics/3847761.png">
+        </div>
+        <div class="column">
+            <div id="progress_container">
+                    <div class="progress-item">
+                        <img class="skill" alt="html" src="pics/html-logo.png">
+                        <label class="progress-label" for="exp1">Years of experience:</label>
+                        <div class="progress-bar" id="exp1"> 3y </div>
+                    </div>
+                    <div class="progress-item">
+                        <img class="skill" alt="css" src="pics/css-logo.png">
+                        <label class="progress-label" for="exp2">Years of experience:</label>
+                        <div class="progress-bar" id="exp2"> 3y </div>
+                    </div>
+
+                    <div class="progress-item">
+                        <img class="skill" alt="javascript" src="pics/js-logo.png">
+                        <label class="progress-label" for="exp3">Years of experience:</label>
+                        <div class="progress-bar" id="exp3"> 3y </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+   <div id="footer"></div>
+</body>
+
+</html>
