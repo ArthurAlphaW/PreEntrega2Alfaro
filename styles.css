@@ -92,6 +92,7 @@ body {
 
 .hero-image {
   object-fit: contain;
+  object-position: bottom;
   width: 100%;
   max-height: 21.625rem;
   border-radius: 10px;
