@@ -9,86 +9,175 @@
 </head>   
 <body class="container">
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Home</a>
-                <a class="nav-item nav-link" href="#">Career</a>
-                <a class="nav-item nav-link" href="#">Portfolio</a>
-                <a class="nav-item nav-link" href="#">Educación</a>
-                <a class="nav-item nav-link" href="#">Contact</a>
+                <a class="nav-item nav-link active" href="/index.html">Home</a>
+                <a class="nav-item nav-link" href="/career.html">Career</a>
+                <a class="nav-item nav-link" href="/portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link" href="/education.html">Educación</a>
+                <a class="nav-item nav-link" href="/contact.html">Contact</a>
               </div>
             </div>
           </nav>
     </header>
     <main>
-        <div class="hero-section padded-row page-row">
-            <div>
-                <h2 class="section-title">Hello, I'm Arturo <span class="focus">Front-end Dev</span></h2>
-                <p>Experienced web developer with over 5 years of experience working with CSS3, HTML5, SASS, JavaScript, Wordpress and Hubspot. Passionate about creating visually appealing and user-friendly, accessible and adaptable websites that meet clients goals and needs.</p>
-            </div>
-            <div class="hero-image-wrapper">
-                <img class="hero-image" alt="myself" src="/pics/profile_picture.JPG">
-            </div>
-        </div>
-        <div id="exp_section_homepage" class="row">
-            <h2 class="section-title">Most recent experience</h2>
-            <div class="col-md-6">
-                <h3 class="section-subtitle">
-                    Front-end Developer
-                </h3>
-                <h4>Edlio LLC.</h4>
-                <p>
-                    Collaborate with designers and project managers to develop websites for educational institutions.
-                    Write clean, efficient, and well-documented code using CSS3, HTML5, SASS, and JavaScript.
-                    Ensure website compatibility across different browsers and devices.
-                    Optimize website performance and implement SEO best practices.
-                    Participate in production design and development team meetings providing input on project timelines, technical requirements, and design recommendations.
-
-                </p>
-            </div>
-            <div class="col-md-6">
-                <h3 class="section-subtitle">
-                    Hubspot Developer
-                </h3>
-                <h4>Hint Inbound Marketing</h4>
-                <p>
-                    Developed and maintained responsive websites using CSS3, HTML5, HuBL and JavaScript.
-                    Tested websites for cross-browser compatibility and responsive design.
-                    Assisted with website optimization and SEO efforts.
-                    Collaborated with designers and project managers to ensure project timelines and deliverables were met.
-                    Communicated with clients to understand their needs and provide technical support.
-                    Generate modular code snippets to create a reusable element library, improving project time usage and management. 
-                </p>
-            </div>
-        </div>
-
-        <div id="skills_section_homepage" class="page-row padded-row">
-            <div class="column">
-                <img id="homepage_illustration" alt="webdev illustration" src="pics/3847761.png">
-            </div>
-            <div class="column">
-                <div id="progress_container">
-                        <div class="progress-item">
-                            <img class="skill" alt="html" src="pics/html-logo.png">
-                            <label class="progress-label" for="exp1">Years of experience:</label>
-                            <div class="progress-bar" id="exp1"> 3y </div>
+        <div class="container sections-wrapper py-5">
+            <div class="row">
+                <div class="primary col-lg-8 col-12">
+                    <section class="about section">
+                        <div class="section-inner shadow-sm rounded">
+                            <div class="hero-image-wrapper col-md-4">
+                                <img class="hero-image" alt="myself" src="/pics/profile_picture.JPG">
+                            </div>
+                            <div class="col-md-8">
+                                <h2 class="section-title">Hello, I'm Arturo <span class="focus">Front-end Dev</span></h2>
+                                <p>Experienced web developer with over 5 years of experience working with CSS3, HTML5, SASS, JavaScript, Wordpress and Hubspot. Passionate about creating visually appealing and user-friendly, accessible and adaptable websites that meet clients goals and needs.</p>
+                            </div>
+                            
+                        </div>                 
+                    </section>
+                    
+                    <section class="experience section">
+                        <div class="section-inner shadow-sm rounded">
+                            <h2 class="heading">Work Experience</h2>
+                            <div class="content">
+                                <div class="item">
+                                    <h3 class="title"> Hubspot Developer at<span class="place"><a href="https://www.instrumental.net/es/">Hint Inbound Marketing (now Instrumental)</a></span> <span class="year">(2020 - 2021)</span></h3>
+                                    <p>Developed and maintained responsive websites using CSS3, HTML5, HuBL and JavaScript.
+                                        Tested websites for cross-browser compatibility and responsive design.
+                                        Assisted with website optimization and SEO efforts.
+                                        Collaborated with designers and project managers to ensure project timelines and deliverables were met.
+                                        Communicated with clients to understand their needs and provide technical support.
+                                        Generate modular code snippets to create a reusable element library, improving project time usage and management. </p>
+                                </div>
+                                <div class="item">
+                                    <h3 class="title"> Front-end Developer at<span class="place"><a href="https://edlio.com">Edlio LLC</a></span> <span class="year">(2021 - present)</span></h3>
+                                    <p>Collaborate with designers and project managers to develop websites for educational institutions.
+                                        Write clean, efficient, and well-documented code using CSS3, HTML5, SASS, and JavaScript.
+                                        Ensure website compatibility across different browsers and devices.
+                                        Optimize website performance and implement SEO best practices.
+                                        Participate in production design and development team meetings providing input on project timelines, technical requirements, and design recommendations. </p>
+                                </div>
+                                
+                            </div>  
+                        </div>                 
+                    </section>
+                    <section class="github section">
+                        <div class="section-inner shadow-sm rounded">
+                            <h2 class="heading">My GitHub</h2>
+                            <p>You can embed your GitHub contribution graph calendar using IonicaBizau's <a href="https://github.com/IonicaBizau/github-calendar" target="_blank">GitHub Calendar</a> widget. 
+                            
+                            <div id="github-graph" class="github-graph">
+    
+                            </div><!--//github-graph-->
+    
+                            <p>You can also embed your GitHub activities using Casey Scarborough's <a href="https://github.com/caseyscarborough/github-activity" target="_blank">GitHub Activity Stream</a> widget.        
+                            <!--//Usage: https://caseyscarborough.com/projects/github-activity/ -->                       
+                            <div id="ghfeed" class="ghfeed">
+                            </div><!--//ghfeed-->
+                            
+                        </div><!--//secton-inner-->
+                    </section>
+                </div><!--//primary-->
+                <div class="secondary col-lg-4 col-12">
+                     <aside class="info aside section">
+                        <div class="section-inner shadow-sm rounded">
+                            <h2 class="heading sr-only">Basic Information</h2>
+                            <div class="content">
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>San Francisco, US</li>
+                                    <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="mail:artalfaroblanco@gmail.com">artalfaroblanco@gmail.com</a></li>
+                                    <li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="/"> This one lol</a></li>
+                                </ul>
+                            </div>  
+                        </div>                 
+                    </aside><!--//aside-->
+                    
+                    <aside class="skills aside section">
+                        <div class="section-inner shadow-sm rounded">
+                            <h2 class="heading">Skills</h2>
+                            <div class="content">
+                                <p class="intro">
+                                </p>
+                                
+                                <div class="skillset">
+                                   
+                                    <div class="item">
+                                        <h3 class="level-title">HTML5<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
+    
+                                        <div class="level-bar progress">
+                                            <div class="progress-bar level-bar-inner" role="progressbar" style="width: 96%" aria-valuenow="96"  aria-valuemin="0" aria-valuemax="96"></div>
+                                        </div>                             
+                                    </div>
+                                    
+                                    <div class="item">
+                                        <h3 class="level-title">CSS3<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
+                                        <div class="level-bar progress">
+                                            <div class="progress-bar level-bar-inner" role="progressbar" style="width: 94%" aria-valuenow="94"  aria-valuemin="0" aria-valuemax="94"></div>
+                                        </div>                                 
+                                    </div>
+                                    
+                                    <div class="item">
+                                        <h3 class="level-title">JavaScript<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
+                                        <div class="level-bar progress">
+                                            <div class="progress-bar level-bar-inner" role="progressbar" style="width: 93%" aria-valuenow="93"  aria-valuemin="0" aria-valuemax="96"></div>
+                                        </div>                                
+                                    </div>
+                                    
+                                    <p><a class="more-link" href="https://github.com/ArthurAlphaW"><i class="fas fa-external-link-alt"></i>More on GitHub</a></p> 
+                                </div>              
+                            </div> 
+                        </div>               
+                    </aside>
+                    
+                    <aside class="education aside section">
+                        <div class="section-inner shadow-sm rounded">
+                            <h2 class="heading">Education</h2>
+                            <div class="content">
+                                <div class="item">                      
+                                    <h3 class="title"><i class="fas fa-graduation-cap"></i>BDes Interactive Design</h3>
+                                    <h4 class="university">Universidad Modelo <span class="year">(2015-2019)</span></h4>
+                                </div>
+                            </div>
                         </div>
-                        <div class="progress-item">
-                            <img class="skill" alt="css" src="pics/css-logo.png">
-                            <label class="progress-label" for="exp2">Years of experience:</label>
-                            <div class="progress-bar" id="exp2"> 3y </div>
+                    </aside>
+                                
+                    <aside class="languages aside section">
+                        <div class="section-inner shadow-sm rounded">
+                            <h2 class="heading">Languages</h2>
+                            <div class="content">
+                                <ul class="list-unstyled">
+                                    <li class="item">
+                                        <span class="title"><strong>English:</strong></span>
+                                        <span class="level">Native Speaker <br class="visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
+                                    </li>
+                                    <li class="item">
+                                        <span class="title"><strong>Spanish:</strong></span>
+                                        <span class="level">Professional Proficiency <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half"></i></span>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-
-                        <div class="progress-item">
-                            <img class="skill" alt="javascript" src="pics/js-logo.png">
-                            <label class="progress-label" for="exp3">Years of experience:</label>
-                            <div class="progress-bar" id="exp3"> 3y </div>
+                    </aside>
+                    
+                    <aside class="list music aside section">
+                        <div class="section-inner shadow-sm rounded">
+                            <h2 class="heading">Favourite coding music</h2>
+                            <div class="content">
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-headphones"></i> <a href="#">Etiam hendrerit urna nunc</a></li>
+                                    <li><i class="fas fa-headphones"></i> <a href="#">Ut sollicitudin in mauris non auctor</a></li>
+                                    <li><i class="fas fa-headphones"></i> <a href="#">Etiam hendrerit urna nunc</a></li>
+                                    <li><i class="fas fa-headphones"></i> <a href="#">Duis et felis bibendum</a></li>
+                                </ul>
+                            </div>
                         </div>
-                </div>
+                    </aside>     
+                </div>  
             </div>
         </div>
     </main>
@@ -96,7 +185,7 @@
         
     
         <ul class="nav col-md-12 justify-content-end list-unstyled d-flex">
-          <li class="ms-3">Take a look to some of my projects <a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#github"/></svg></a></li>
+          <li class="ms-3">Take a look to some of my projects <a class="text-muted" href="https://github.com/ArthurAlphaW"><svg class="bi" width="24" height="24"><use xlink:href="#github"/></svg></a></li>
         </ul>
       </footer>
       <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
